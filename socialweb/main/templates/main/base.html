@@ -7,11 +7,14 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
+
     <link rel="stylesheet" href="{% static 'css/sidebar.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/person_main.css' %}" />
 
     <link rel="stylesheet" href="{% static 'css/photo.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/vid.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}" />
 
     <title>DevSearch - Connect with Developers!</title>
 </head>
@@ -19,9 +22,12 @@
 <body>
 
 {% include 'main/sidebar.html' %}
-
+<div class="ro">
 {% block content %}
+
 {% endblock %}
+</div>
+
 
 </body>
 
